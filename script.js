@@ -3,7 +3,7 @@ document.getElementById('toggle-lang-btn').addEventListener('click', function() 
     const isEnglish = langBtn.textContent.includes('Dutch');
 
     if (isEnglish) {
-        langBtn.textContent = 'Switch to English';
+        langBtn.textContent = '🇺🇸 Switch to English';
         document.getElementById('header-title').textContent = 'Privacybeleid';
         document.getElementById('introduction-title').textContent = 'Inleiding';
         document.getElementById('introduction-content').textContent = 'Dit privacybeleid is van toepassing op de HealthDetective-app (hierna "Applicatie" genoemd) voor mobiele apparaten die is gemaakt door Jarik Okkerman (hierna "Serviceprovider" genoemd) als een gratis service. Deze service is bedoeld voor gebruik "AS IS".';
@@ -28,7 +28,7 @@ document.getElementById('toggle-lang-btn').addEventListener('click', function() 
         document.getElementById('contact-title').textContent = 'Contacteer Ons';
         document.getElementById('contact-content').innerHTML = 'Als u vragen heeft over privacy tijdens het gebruik van de applicatie, of als u vragen heeft over de praktijken, neem dan contact op met de Serviceprovider via e-mail op jarikokkerman@icloud.com.';
         } else {
-        langBtn.textContent = 'Switch to Dutch';
+        langBtn.textContent = '🇳🇱 Switch to Dutch';
         document.getElementById('header-title').textContent = 'Privacy Policy';
         document.getElementById('introduction-title').textContent = 'Introduction';
         document.getElementById('introduction-content').textContent = 'This privacy policy applies to the HealthDetective app (hereby referred to as “Application”) for mobile devices that was created by Jarik Okkerman (hereby referred to as “Service Provider”) as a Free service. This service is intended for use “AS IS”.';
